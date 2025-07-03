@@ -2,31 +2,41 @@
 
 <template>
   <div>
-    <AppNavbar />
-
-    <!-- Komponen utama hanya tampil di '/' -->
-    <div v-if="route.path === '/'">
+    <!-- Hero Section -->
+    <section id="home">
       <HeroSection />
-      <AboutPage />
-      <ServicePage />
-      <ProgramS />
-      <ContactSec />
-    </div>
+    </section>
 
-    <!-- Halaman router lain seperti /pendaftaran -->
-    <router-view v-else />
+    <!-- About Section -->
+    <section id="about">
+      <AboutPage />
+    </section>
+
+    <!-- Services Section -->
+    <section id="service">
+      <ServicePage />
+    </section>
+
+    <!-- Program Section -->
+    <section id="program">
+      <ProgramS />
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <ContactSec />
+    </section>
   </div>
 </template>
 
 <script setup>
-import { useRoute } from 'vue-router'
-
-import AppNavbar from '@/components/AppNavbar.vue'
 import HeroSection from '@/components/HeroSection.vue'
 import AboutPage from '@/components/AboutPage.vue'
 import ServicePage from '@/components/ServicePage.vue'
 import ProgramS from '@/components/ProgramS.vue'
 import ContactSec from '@/components/ContactSec.vue'
-
-const route = useRoute()
 </script>
+
+<style scoped>
+/* Optional: tambahkan animasi scroll, padding, dll */
+</style>

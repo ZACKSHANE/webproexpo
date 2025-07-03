@@ -1,6 +1,5 @@
 <template>
   <div>
-    <AppNavbar />
     <HeroSection />
     <AboutSection />
     <ProjectsSection />
@@ -10,7 +9,6 @@
 </template>
 
 <script setup>
-import AppNavbar from '@/components/PortFolio/PortAppNavbar.vue'
 import HeroSection from '@/components/PortFolio/PortHeroSection.vue'
 import AboutSection from '@/components/PortFolio/PortAboutSection.vue'
 import ProjectsSection from '@/components/PortFolio/PortProjectsSection.vue'

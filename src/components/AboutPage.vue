@@ -79,7 +79,7 @@ const projects = [
     title: "Zacky Alhafizh Efendi",
     description: "",
     image: orang1,
-    link: "#",
+    link: "/PortFolio",
   },
   {
     id: 2,

@@ -1,8 +1,8 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import Home from '@/views/Home.vue'
 import Portfolio from '@/views/PortFolio.vue'
-import Portfolio2 from '@/views/Portfolio2.vue' // ✅ Tambahkan ini
-import PendaftaranPage from '@/views/PendaftaranPage.vue'
+import Portfolio2 from '@/views/Portfolio2.vue'
+import Pendaftaran from '@/views/PendaftaranPage.vue'
 
 const routes = [
   {
@@ -16,20 +16,28 @@ const routes = [
     component: Portfolio
   },
   {
-    path: '/portfolio2', // ✅ Ini route baru
+    path: '/portfolio2',
     name: 'Portfolio2',
     component: Portfolio2
   },
   {
     path: '/pendaftaran',
     name: 'Pendaftaran',
-    component: PendaftaranPage
+    component: Pendaftaran
   }
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
-  routes
+  history: createWebHashHistory(),
+  routes,
+  scrollBehavior(to) {
+  if (to.hash) {
+    return {
+      el: to.hash,
+      behavior: 'smooth'
+    }
+  }
+  return { top: 0 }
+}
 })
-
 export default router
