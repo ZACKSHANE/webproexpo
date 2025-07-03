@@ -4,6 +4,7 @@
   <div>
     <!-- Hero Section -->
     <section id="home">
+      
       <HeroSection />
     </section>
 
