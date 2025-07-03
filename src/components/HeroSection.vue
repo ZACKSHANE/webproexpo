@@ -37,9 +37,9 @@
       <!-- Text -->
       <div class="flex-1 w-full max-w-full text-center md:text-left">
         <h1
-          class="text-4xl sm:text-5xl font-poppins font-bold text-black leading-tight break-words"
+           class="text-4xl sm:text-5xl font-poppins font-bold text-black leading-tight break-words"
         >
-          <span class="block whitespace-nowrap pb-3">
+          <span class="block whitespace-normal md:whitespace-nowrap pb-4">
             >Upgrade Skillmu Sebagai</span
           >
           <span class="block text-[#10B981] pb-3">UI/UX Designer</span>
