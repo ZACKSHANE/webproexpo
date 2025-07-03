@@ -8,11 +8,11 @@
         mentor profesional kami!
       </p>
       <router-link to="/pendaftaran">
-      <button
-        class="mt-4 bg-white text-[#00264D] px-6 py-2 rounded-full font-semibold shadow hover:shadow-md transition"
-      >
-        Daftar Sekarang
-      </button>
+        <button
+          class="mt-4 bg-white text-[#00264D] px-6 py-2 rounded-full font-semibold shadow hover:shadow-md transition"
+        >
+          Daftar Sekarang
+        </button>
       </router-link>
     </div>
 
@@ -35,7 +35,9 @@
             />
           </svg>
 
-          <span class="font-semibold font-poppins text-2xl">08581146105 / Bagas Aditya</span>
+          <span class="font-semibold font-poppins text-2xl"
+            >08581146105 / Bagas Aditya</span
+          >
         </div>
         <!-- instagram -->
         <div class="flex items-center gap-2">
@@ -52,7 +54,9 @@
             />
           </svg>
 
-          <span  class="font-semibold font-poppins text-2xl">@DevLearn.indonesia</span>
+          <span class="font-semibold font-poppins text-2xl"
+            >@DevLearn.indonesia</span
+          >
         </div>
 
         <!-- facebook -->
@@ -70,7 +74,9 @@
             />
           </svg>
 
-          <span  class="font-semibold font-poppins text-2xl">DevLearn.indonesia</span>
+          <span class="font-semibold font-poppins text-2xl"
+            >DevLearn.indonesia</span
+          >
         </div>
 
         <!-- twitter -->
@@ -96,7 +102,9 @@
             </g>
           </svg>
 
-          <span  class="font-semibold font-poppins text-2xl">DevLearn.indonesia</span>
+          <span class="font-semibold font-poppins text-2xl"
+            >DevLearn.indonesia</span
+          >
         </div>
       </div>
 
@@ -106,11 +114,14 @@
       >
         <h3 class="font-bold text-lg">Butuh Bantuan?</h3>
         <p class="mb-4">Tim kami siap bantu</p>
-        <button
-          class="bg-[#00264D] text-white font-semibold px-6 py-2 rounded-xl shadow-md hover:bg-[#001f3d] transition"
+        <a
+          href="https://wa.me/628581146105?text=Hallo%20Selamat%20datang%20di%20DevLearn.%20Adakah%20yang%20bisa%20saya%20bantu%3F%20Nama%3A%20Kendala%3A"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-block bg-[#00264D] text-white font-semibold px-6 py-2 rounded-xl shadow-md hover:bg-[#001f3d] transition"
         >
           Chat Sekarang
-        </button>
+        </a>
       </div>
     </div>
 
