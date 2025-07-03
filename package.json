@@ -2,12 +2,14 @@
   "name": "webproexpo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://devlearn-id.github.io/webproexpo",
+  "homepage": "https://ZACKSHANE.github.io/WebProExpo"
+,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "gh-pages -d dist"
+   "deploy": "npm run build && gh-pages -d dist"
+
   },
   "dependencies": {
     "core-js": "^3.8.3",
