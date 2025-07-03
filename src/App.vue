@@ -1,26 +1,31 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <AppNavbar />
+
+    <!-- Komponen utama hanya tampil di '/' -->
+    <div v-if="route.path === '/'">
+      <HeroSection />
+      <AboutPage />
+      <ServicePage />
+      <ProgramS />
+      <ContactSec />
+    </div>
+
+    <!-- Halaman router lain seperti /pendaftaran -->
+    <router-view v-else />
+  </div>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
+<script setup>
+import { useRoute } from 'vue-router'
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+import AppNavbar from "./components/AppNavbar.vue";
+import HeroSection from "./components/HeroSection.vue";
+import AboutPage from "./components/AboutPage.vue";
+import ServicePage from "./components/ServicePage.vue";
+import ProgramS from "./components/ProgramS.vue";
+import ContactSec from "./components/ContactSec.vue";
+
+// ✅ ini cara yang benar untuk script setup
+const route = useRoute()
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
