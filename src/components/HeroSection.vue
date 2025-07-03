@@ -27,18 +27,19 @@
         </svg> -->
 
 <template>
-  <section id="home" class="pt-24 bg-[#BDDBD2] text-white min-h-screen overflow-hidden">
+  <section
+    id="home"
+    class="pt-24 bg-[#BDDBD2] text-white min-h-screen overflow-hidden"
+  >
     <div
       class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center gap-8"
     >
       <!-- Text -->
       <div class="flex-1 w-full max-w-full text-center md:text-left">
-
         <h1
           class="text-4xl sm:text-5xl font-poppins font-bold text-black leading-tight break-words"
         >
-          >
-          <span class="block whitespace-nowrap pb-3"
+          <span class="block whitespace-nowrap pb-3">
             >Upgrade Skillmu Sebagai</span
           >
           <span class="block text-[#10B981] pb-3">UI/UX Designer</span>
@@ -54,7 +55,7 @@
 
         <button
           @click="goToForm"
-          class="block mx-auto md:mx-0 mt-6 px-6 py-3 translate-x-0 md:translate-x-[-60px] bg-[#16A34A] text-black rounded-full hover:bg-gray-100 transition"
+          class="block mx-auto md:mx-0 mt-6 px-6 py-3 md:translate-x-[8rem] bg-[#16A34A] text-black rounded-full hover:bg-gray-100 transition"
         >
           Daftar Sekarang
         </button>
