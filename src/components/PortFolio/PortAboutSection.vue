@@ -55,7 +55,7 @@
             </a>
 
             <a
-              href="/cv Zaki.pdf"
+              href="/CVZAKI.pdf"
               download
               class="border border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-black font-semibold py-2 px-4 rounded shadow text-center"
             >
