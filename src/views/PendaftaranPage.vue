@@ -3,34 +3,34 @@
     <div class="max-w-4xl mx-auto">
       <!-- Heading -->
       <div class="bg-[#6DC7D1] text-white p-6 rounded-t-lg text-center">
-        <h2 class="text-2xl md:text-3xl font-bold">Pendaftaran Bootcamp DevLearn</h2>
-        <p class="text-base mt-1 text-gray-300">Daftar Sekarang</p>
-        <p class="text-sm mt-2 text-gray-200">
+        <h2 class="text-[22px] md:text-3xl font-semibold font-poppins text-[#000000]">Pendaftaran Bootcamp DevLearn</h2>
+        <p class="text-[22px] mt-1 text-[#000000] font-poppins">Daftar Sekarang</p>
+        <p class="text-[12px] mt-2 text-[#000000]">
           Isi data di bawah untuk bergabung dalam program bootcamp DevLearn
         </p>
       </div>
 
       <!-- Form -->
-      <form @submit.prevent="submitForm" class="bg-white p-8 border border-gray-200 shadow-lg">
+      <form @submit.prevent="submitForm" class="bg-white p-8 border border-gray-200 shadow-lg text-[#000000]">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
           <!-- Left Column -->
-          <div class="space-y-4">
+          <div class="space-y-4 text-[#000000] font-dmsans text-[14px]">
             <input v-model="form.nama" type="text" placeholder="Nama Lengkap"
-              class="w-full p-3 rounded-md bg-gray-100 focus:outline-none" required />
+              class="w-full p-3 border-2 border-black rounded-md bg-[#E2F3F4] focus:outline-none placeholder:text-black" required />
             <input v-model="form.hp" type="text" placeholder="Nomor HP"
-              class="w-full p-3 rounded-md bg-gray-100 focus:outline-none" required />
+              class="w-full p-3 border-2 border-black rounded-md bg-[#E2F3F4] focus:outline-none placeholder:text-black" required />
             <input v-model="form.domisili" type="text" placeholder="Domisili (Opsional)"
-              class="w-full p-3 rounded-md bg-gray-100 focus:outline-none" />
+              class="w-full p-3 border-2 border-black rounded-md bg-[#E2F3F4] focus:outline-none placeholder:text-black" />
           </div>
 
           <!-- Right Column -->
-          <div class="space-y-4">
+          <div class="space-y-4 text-[#000000]">
             <input v-model="form.email" type="email" placeholder="Email"
-              class="w-full p-3 rounded-md bg-gray-100 focus:outline-none" required />
+              class="w-full p-3 border-2 border-black rounded-md bg-[#E2F3F4] focus:outline-none placeholder:text-black" required />
             <input v-model="form.program" type="text" placeholder="Program Bootcamp"
-              class="w-full p-3 rounded-md bg-gray-100 focus:outline-none" required />
+              class="w-full p-3 border-2 border-black rounded-md bg-[#E2F3F4] focus:outline-none placeholder:text-black" required />
             <input v-model="form.instagram" type="text" placeholder="Nama Instagram"
-              class="w-full p-3 rounded-md bg-gray-100 focus:outline-none" />
+              class="w-full p-3 border-2 border-black rounded-md bg-[#E2F3F4] focus:outline-none placeholder:text-black" />
           </div>
         </div>
 
@@ -43,13 +43,13 @@
         </div>
 
         <!-- Info Text -->
-        <p class="text-center text-sm text-gray-600 mt-6">
+        <p class="text-center text-[14px] text-[#000000] font-poppins font-medium mt-6">
           Kami akan menghubungi kamu lewat WhatsApp dan Email dalam 1×24 jam setelah pendaftaran.
         </p>
       </form>
 
       <!-- Footer -->
-      <div class="bg-[#6DC7D1] text-white text-center py-4 mt-10 rounded-b-lg text-sm">
+      <div class="bg-[#6DC7D1] text-[#000000] font-semibold font-poppins text-center py-4  rounded-b-lg text-[14px]">
         Devlearn Indonesia. All rights reserved.
       </div>
     </div>

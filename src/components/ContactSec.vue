@@ -2,8 +2,8 @@
   <section id="contact" class="bg-white">
     <!-- Header: Tunggu Apa Lagi -->
     <div class="bg-[#6DC7D1] text-white text-center px-4 py-10">
-      <h2 class="text-xl md:text-2xl font-bold mb-2">Tunggu Apa Lagi?</h2>
-      <p class="max-w-2xl mx-auto text-sm md:text-base">
+      <h2 class="text-xl md:text-2xl font-bold mb-2 text-[#000000]">Tunggu Apa Lagi?</h2>
+      <p class="max-w-2xl mx-auto text-[32px] md:text-base text-[#000000] font-dmsans ">
         Bersiaplah untuk upgrade skill dan mulai karier di dunia digital bersama
         mentor profesional kami!
       </p>
@@ -112,13 +112,13 @@
       <div
         class="w-full md:w-1/2 bg-[#D5F1EB] p-6 flex flex-col justify-center items-start md:items-center"
       >
-        <h3 class="font-bold text-lg">Butuh Bantuan?</h3>
-        <p class="mb-4">Tim kami siap bantu</p>
+        <h3 class="font-bold text-lg ">Butuh Bantuan?</h3>
+        <p class="mb-4 ">Tim kami siap bantu</p>
         <a
           href="https://wa.me/628581146105?text=Hallo%20Selamat%20datang%20di%20DevLearn.%20Adakah%20yang%20bisa%20saya%20bantu%3F%20Nama%3A%20Kendala%3A"
           target="_blank"
           rel="noopener noreferrer"
-          class="inline-block bg-[#00264D] text-white font-semibold px-6 py-2 rounded-xl shadow-md hover:bg-[#001f3d] transition"
+          class="inline-block bg-[#6DC7D1] text-white font-semibold px-6 py-2 rounded-xl shadow-md hover:bg-[#001f3d] transition"
         >
           Chat Sekarang
         </a>
@@ -133,43 +133,43 @@
         <!-- Logo & Tagline -->
         <div class="flex items-center space-x-3">
           <svg
-            width="32"
-            height="32"
+            width="50"
+            height="50"
             viewBox="0 0 62 73"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
               d="M49.29 55.5309C48.484 52.6443 46.159 50.5154 43.4 50.5154H40.3V39.6907C40.3 38.7337 39.9734 37.8159 39.392 37.1393C38.8107 36.4626 38.0222 36.0824 37.2 36.0824H18.6V28.866H24.8C25.6222 28.866 26.4107 28.4858 26.992 27.8091C27.5734 27.1324 27.9 26.2147 27.9 25.2577V18.0412H34.1C35.7443 18.0412 37.3213 17.2809 38.4841 15.9276C39.6468 14.5742 40.3 12.7387 40.3 10.8247V9.34535C44.0091 11.0858 47.3006 13.8465 49.8927 17.3911C52.4849 20.9357 54.3005 25.1587 55.1842 29.6984C56.0678 34.2382 55.9932 38.9596 54.9667 43.4584C53.9402 47.9573 51.9924 52.0996 49.29 55.5309ZM27.9 64.6958C15.655 62.9278 6.2 50.8041 6.2 36.0824C6.2 33.8453 6.448 31.6804 6.851 29.6237L21.7 46.9072V50.5154C21.7 52.4293 22.3532 54.2649 23.5159 55.6182C24.6787 56.9716 26.2557 57.7319 27.9 57.7319M31 0C26.929 0 22.8979 0.9333 19.1368 2.74661C15.3757 4.55992 11.9583 7.21774 9.07969 10.5683C3.26606 17.3351 0 26.5128 0 36.0824C0 45.6521 3.26606 54.8298 9.07969 61.5966C11.9583 64.9471 15.3757 67.605 19.1368 69.4183C22.8979 71.2316 26.929 72.1649 31 72.1649C39.2217 72.1649 47.1067 68.3633 52.9203 61.5966C58.7339 54.8298 62 45.6521 62 36.0824C62 31.344 61.1982 26.652 59.6403 22.2743C58.0824 17.8966 55.7989 13.9189 52.9203 10.5683C50.0417 7.21774 46.6243 4.55992 42.8632 2.74661C39.1021 0.9333 35.071 0 31 0Z"
-              fill="#FEFAFA"
+              fill="#000000"
             />
           </svg>
 
           <div>
-            <h1 class="font-bold text-xl">DevLearn</h1>
-            <p class="text-sm">Learn.Upgrade.Build</p>
+            <h1 class="font-bold text-[50px] font-anton text-[#000000] pt-9 ">DevLearn</h1>
+            <p class="text-[32px] font-poppins text-[#000000]">Learn.Upgrade.Build</p>
           </div>
         </div>
 
         <!-- Navigasi -->
         <div class="md:justify-self-start ml-2 md:ml-4 text-sm space-y-1">
-          <p class="font-semibold">About</p>
-          <p class="font-semibold">Program</p>
+          <p class="font-semibold text-[#000000]">About</p>
+          <p class="font-semibold text-[#000000]">Program</p>
 
           <div class="flex items-center gap-2">
-            <p class="font-semibold">Mentor</p>
+            <p class="font-semibold text-[#000000]">Mentor</p>
             <div class="flex items-center gap-1 text-sm ml-3">
-              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+              <svg class="w-4 h-4" fill="currentColor text-[#000000]" viewBox="0 0 24 24">
                 <path
                   d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1.003 1.003 0 011.11-.21c1.12.45 2.33.69 3.48.69a1 1 0 011 1V20a1 1 0 01-1 1C10.53 21 3 13.47 3 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.15.24 2.36.69 3.48a1.003 1.003 0 01-.21 1.11l-2.2 2.2z"
                 />
               </svg>
-              <span>08581146105</span>
+              <span class="text-[#000000]">08581146105</span>
             </div>
           </div>
 
           <div class="flex items-center gap-2">
-            <p class="font-semibold">Email</p>
+            <p class="font-semibold text-[#000000]">Email</p>
             <div class="flex items-center gap-1 text-sm ml-6">
               <svg
                 width="20"
@@ -180,16 +180,16 @@
               >
                 <path
                   d="M29.7 0H3.3C1.485 0 0.0165 1.45407 0.0165 3.23126L0 22.6188C0 24.396 1.485 25.8501 3.3 25.8501H29.7C31.515 25.8501 33 24.396 33 22.6188V3.23126C33 1.45407 31.515 0 29.7 0ZM29.7 6.46253L16.5 14.5407L3.3 6.46253V3.23126L16.5 11.3094L29.7 3.23126V6.46253Z"
-                  fill="white"
+                  fill="black"
                 />
               </svg>
 
-              <span>devlearn@gmail.com</span>
+              <span class="text-[#000000]">devlearn@gmail.com</span>
             </div>
           </div>
         </div>
       </div>
-      <p class="text-center text-xs mt-6">
+      <p class="text-center text-[14px] font-poppins mt-6 text-[#000000]">
         DevLearn.Indonesia | All Rights Reserved.
       </p>
     </footer>

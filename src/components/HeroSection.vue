@@ -40,7 +40,7 @@
            class="text-4xl sm:text-5xl font-poppins font-bold text-black leading-tight break-words"
         >
           <span class="block whitespace-normal md:whitespace-nowrap pb-4">
-            >Upgrade Skillmu Sebagai</span
+            Upgrade Skillmu Sebagai</span
           >
           <span class="block text-[#10B981] pb-3">UI/UX Designer</span>
           <span class="block text-[#10B981]">& Web Development</span>

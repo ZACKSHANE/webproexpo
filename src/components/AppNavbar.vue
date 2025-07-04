@@ -16,7 +16,7 @@
           />
         </svg>
 
-        <h1 class="text-[24px] md:text-[32px] font-anton">DevLearn</h1>
+        <h1 class="text-[24px] md:text-[32px] font-anton text-[#000000]">DevLearn</h1>
       </div>
 
       <!-- Hamburger Icon -->
@@ -58,7 +58,7 @@
               <RouterLink
                 :to="{ path: '/', hash: '#home' }"
                 @click="closeMenu"
-                class="block text-white text-lg hover:text-gray-700 font-inter"
+                class="block text-[#000000] text-lg hover:text-gray-200 font-inter"
                 >Home</RouterLink
               >
             </li>
@@ -66,7 +66,7 @@
               <RouterLink
                 :to="{ path: '/', hash: '#about' }"
                 @click="closeMenu"
-                class="block text-white text-lg hover:text-gray-700 font-inter"
+                class="block text-[#000000] text-lg hover:text-gray-200 font-inter"
                 >About</RouterLink
               >
             </li>
@@ -74,7 +74,7 @@
               <RouterLink
                 :to="{ path: '/', hash: '#service' }"
                 @click="closeMenu"
-                class="block text-white text-lg hover:text-gray-700 font-inter"
+                class="block text-[#000000] hover:text-gray-200 font-inter"
                 >Services</RouterLink
               >
             </li>
@@ -82,7 +82,7 @@
               <RouterLink
                 :to="{ path: '/', hash: '#program' }"
                 @click="closeMenu"
-                class="block text-white text-lg hover:text-gray-700 font-inter"
+                class="block text-[#000000] text-lg hover:text-gray-200 font-inter"
                 >Program</RouterLink
               >
             </li>
@@ -90,7 +90,7 @@
               <RouterLink
                 :to="{ path: '/', hash: '#contact' }"
                 @click="closeMenu"
-                class="block text-white text-lg hover:text-gray-700 font-inter"
+                class=" text-[#000000] block text-lg hover:text-gray-200 font-inter"
                 >Contact</RouterLink
               >
             </li>
@@ -103,35 +103,35 @@
         <li>
           <RouterLink
             :to="{ path: '/', hash: '#home' }"
-            class="hover:text-gray-200 text-lg font-inter"
+            class="text-[#000000] hover:text-gray-200 text-lg font-inter"
             >Home</RouterLink
           >
         </li>
         <li>
           <RouterLink
             :to="{ path: '/', hash: '#about' }"
-            class="hover:text-gray-200 text-lg font-inter"
+            class="text-[#000000] hover:text-gray-200 text-lg font-inter"
             >About</RouterLink
           >
         </li>
         <li>
           <RouterLink
             :to="{ path: '/', hash: '#service' }"
-            class="hover:text-gray-200 text-lg font-inter"
+            class="text-[#000000] hover:text-gray-200 text-lg font-inter"
             >Services</RouterLink
           >
         </li>
         <li>
           <RouterLink
             :to="{ path: '/', hash: '#program' }"
-            class="hover:text-gray-200 text-lg font-inter"
+            class="text-[#000000] hover:text-gray-200 text-lg font-inter"
             >Program</RouterLink
           >
         </li>
         <li>
           <RouterLink
             :to="{ path: '/', hash: '#contact' }"
-            class="hover:text-gray-200 text-lg font-inter"
+            class="text-[#000000] hover:text-gray-200 text-lg font-inter"
             >Contact</RouterLink
           >
         </li>
