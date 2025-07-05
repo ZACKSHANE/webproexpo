@@ -68,6 +68,8 @@
 import landingPageImg from '@/assets/img/landing-page.png';
 import ui1Img from '@/assets/img/ui.jpg';
 import dreamImg from '@/assets/img/dream.jpg';
+import zz12Img from '@/assets/img/zz12.jpg';
+
 
 
 // Data project
@@ -91,7 +93,7 @@ const projects = [
     title: 'PhotoShop Design',
     description: 'Creative Photoshop design project showcasing advanced techniques.',
     image: dreamImg,
-    link: 'https://www.instagram.com/p/CpFBqgNr3NF/',
+    link: zz12Img,
   },
 ];
 
