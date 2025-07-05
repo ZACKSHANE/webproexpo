@@ -69,6 +69,7 @@ import landingPageImg from '@/assets/img/landing-page.png';
 import ui1Img from '@/assets/img/ui.jpg';
 import dreamImg from '@/assets/img/dream.jpg';
 
+
 // Data project
 const projects = [
   {
@@ -76,21 +77,21 @@ const projects = [
     title: 'Landing Page',
     description: 'Responsive landing page built with Tailwind CSS and Vue.',
     image: landingPageImg,
-    link: '#',
+    link: 'https://ismailservicetv.com/',
   },
   {
     id: 2,
     title: 'UI Design',
     description: 'Modern UI design with a focus on user experience and accessibility.',
     image: ui1Img,
-    link: '#',
+    link: 'https://www.figma.com/design/1uTkoEZoUNVoc5bNfwhQdq/Untitled?node-id=0-1&p=f&t=tQiUwC3YUUKO5nYX-0',
   },
   {
     id: 3,
     title: 'PhotoShop Design',
     description: 'Creative Photoshop design project showcasing advanced techniques.',
     image: dreamImg,
-    link: '#',
+    link: 'https://www.instagram.com/p/CpFBqgNr3NF/',
   },
 ];
 
